@@ -1,7 +1,14 @@
+*
+  box-sizing: border-box
+  
+$color-blue: #5290EA
+  
+  
 .container
   max-width: 1140px
   margin: 0 auto
 
+  // первая секция
 .main-section
   height: 800px
   background: #F0F0F0
@@ -11,7 +18,11 @@
     justify-content: space-between
     height: 69px
     align-items: center
+  &__logo
+    width: 134px
 
+
+  // блок nav-menu можно переиспользовать
 .nav-menu
   &__list
     display: flex
@@ -20,5 +31,11 @@
     font-size: 18px
     &:last-child
       margin-right: 0
-    
-    
+    ////////////////////////////
+
+.left-wrapper 
+  &__rectangle-blue
+    border-radius: 100px;
+    width: 590px;
+    height: 220px;
+    background: $color-blue
