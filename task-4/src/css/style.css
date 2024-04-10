@@ -4,20 +4,20 @@
   box-sizing: border-box;
 }
 
-/* line 7, ../../../../!Моё обучение/WebDevelopmentHTML/layout-from-scratch/task-4/src/sass/style.sass */
+/* line 9, ../../../../!Моё обучение/WebDevelopmentHTML/layout-from-scratch/task-4/src/sass/style.sass */
 .container {
   max-width: 1140px;
   margin: 0 auto;
 }
 
-/* line 12, ../../../../!Моё обучение/WebDevelopmentHTML/layout-from-scratch/task-4/src/sass/style.sass */
+/* line 14, ../../../../!Моё обучение/WebDevelopmentHTML/layout-from-scratch/task-4/src/sass/style.sass */
 .main-section {
   height: 800px;
   background: #F0F0F0;
   padding-top: 16px;
 }
 
-/* line 16, ../../../../!Моё обучение/WebDevelopmentHTML/layout-from-scratch/task-4/src/sass/style.sass */
+/* line 18, ../../../../!Моё обучение/WebDevelopmentHTML/layout-from-scratch/task-4/src/sass/style.sass */
 .main-section__nav-container {
   display: flex;
   justify-content: space-between;
@@ -25,33 +25,78 @@
   align-items: center;
 }
 
-/* line 21, ../../../../!Моё обучение/WebDevelopmentHTML/layout-from-scratch/task-4/src/sass/style.sass */
+/* line 23, ../../../../!Моё обучение/WebDevelopmentHTML/layout-from-scratch/task-4/src/sass/style.sass */
 .main-section__logo {
   width: 134px;
 }
 
-/* line 27, ../../../../!Моё обучение/WebDevelopmentHTML/layout-from-scratch/task-4/src/sass/style.sass */
+/* line 29, ../../../../!Моё обучение/WebDevelopmentHTML/layout-from-scratch/task-4/src/sass/style.sass */
 .nav-menu__list {
   display: flex;
 }
 
-/* line 29, ../../../../!Моё обучение/WebDevelopmentHTML/layout-from-scratch/task-4/src/sass/style.sass */
+/* line 31, ../../../../!Моё обучение/WebDevelopmentHTML/layout-from-scratch/task-4/src/sass/style.sass */
 .nav-menu__list-item {
   margin-right: 64px;
   font-size: 18px;
 }
 
-/* line 32, ../../../../!Моё обучение/WebDevelopmentHTML/layout-from-scratch/task-4/src/sass/style.sass */
+/* line 34, ../../../../!Моё обучение/WebDevelopmentHTML/layout-from-scratch/task-4/src/sass/style.sass */
 .nav-menu__list-item:last-child {
   margin-right: 0;
 }
 
-/* line 37, ../../../../!Моё обучение/WebDevelopmentHTML/layout-from-scratch/task-4/src/sass/style.sass */
+/* line 38, ../../../../!Моё обучение/WebDevelopmentHTML/layout-from-scratch/task-4/src/sass/style.sass */
+.left-wrapper {
+  position: relative;
+}
+
+/* line 40, ../../../../!Моё обучение/WebDevelopmentHTML/layout-from-scratch/task-4/src/sass/style.sass */
+.left-wrapper img {
+  position: relative;
+  z-index: 5;
+}
+
+/* line 43, ../../../../!Моё обучение/WebDevelopmentHTML/layout-from-scratch/task-4/src/sass/style.sass */
 .left-wrapper__rectangle-blue {
+  position: absolute;
+  z-index: 2;
+  top: 140px;
+  left: -57px;
   border-radius: 100px;
   width: 590px;
   height: 220px;
   background: #5290EA;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+  transform: rotate(-64deg);
+}
+
+/* line 54, ../../../../!Моё обучение/WebDevelopmentHTML/layout-from-scratch/task-4/src/sass/style.sass */
+.left-wrapper__rectangle-orange {
+  position: absolute;
+  z-index: 3;
+  top: 160px;
+  left: -30px;
+  border-radius: 100px;
+  width: 620px;
+  height: 220px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+  background: #f28b64;
+  transform: rotate(-51deg);
+}
+
+/* line 65, ../../../../!Моё обучение/WebDevelopmentHTML/layout-from-scratch/task-4/src/sass/style.sass */
+.left-wrapper__rectangle-grey {
+  position: absolute;
+  z-index: 1;
+  left: 22px;
+  top: 190px;
+  border-radius: 100px;
+  width: 590px;
+  height: 220px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+  background: #e2e2e2;
+  transform: rotate(-36deg);
 }
 
 /*# sourceMappingURL=style.css.map */
