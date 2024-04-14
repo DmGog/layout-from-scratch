@@ -32,37 +32,38 @@
 
 /* line 25, ../../../../!Моё обучение/WebDevelopmentHTML/layout-from-scratch/task-4/src/sass/style.sass */
 .main-section__content-container {
+  position: relative;
   display: flex;
 }
 
-/* line 30, ../../../../!Моё обучение/WebDevelopmentHTML/layout-from-scratch/task-4/src/sass/style.sass */
+/* line 31, ../../../../!Моё обучение/WebDevelopmentHTML/layout-from-scratch/task-4/src/sass/style.sass */
 .nav-menu__list {
   display: flex;
 }
 
-/* line 32, ../../../../!Моё обучение/WebDevelopmentHTML/layout-from-scratch/task-4/src/sass/style.sass */
+/* line 33, ../../../../!Моё обучение/WebDevelopmentHTML/layout-from-scratch/task-4/src/sass/style.sass */
 .nav-menu__list-item {
   margin-right: 64px;
   font-size: 18px;
 }
 
-/* line 35, ../../../../!Моё обучение/WebDevelopmentHTML/layout-from-scratch/task-4/src/sass/style.sass */
+/* line 36, ../../../../!Моё обучение/WebDevelopmentHTML/layout-from-scratch/task-4/src/sass/style.sass */
 .nav-menu__list-item:last-child {
   margin-right: 0;
 }
 
-/* line 39, ../../../../!Моё обучение/WebDevelopmentHTML/layout-from-scratch/task-4/src/sass/style.sass */
+/* line 40, ../../../../!Моё обучение/WebDevelopmentHTML/layout-from-scratch/task-4/src/sass/style.sass */
 .left-wrapper {
   position: relative;
 }
 
-/* line 41, ../../../../!Моё обучение/WebDevelopmentHTML/layout-from-scratch/task-4/src/sass/style.sass */
+/* line 42, ../../../../!Моё обучение/WebDevelopmentHTML/layout-from-scratch/task-4/src/sass/style.sass */
 .left-wrapper img {
   position: relative;
   z-index: 5;
 }
 
-/* line 44, ../../../../!Моё обучение/WebDevelopmentHTML/layout-from-scratch/task-4/src/sass/style.sass */
+/* line 45, ../../../../!Моё обучение/WebDevelopmentHTML/layout-from-scratch/task-4/src/sass/style.sass */
 .left-wrapper__rectangle-blue {
   position: absolute;
   z-index: 2;
@@ -76,7 +77,7 @@
   transform: rotate(-64deg);
 }
 
-/* line 55, ../../../../!Моё обучение/WebDevelopmentHTML/layout-from-scratch/task-4/src/sass/style.sass */
+/* line 56, ../../../../!Моё обучение/WebDevelopmentHTML/layout-from-scratch/task-4/src/sass/style.sass */
 .left-wrapper__rectangle-orange {
   position: absolute;
   z-index: 3;
@@ -90,7 +91,7 @@
   transform: rotate(-51deg);
 }
 
-/* line 66, ../../../../!Моё обучение/WebDevelopmentHTML/layout-from-scratch/task-4/src/sass/style.sass */
+/* line 67, ../../../../!Моё обучение/WebDevelopmentHTML/layout-from-scratch/task-4/src/sass/style.sass */
 .left-wrapper__rectangle-grey {
   position: absolute;
   z-index: 1;
@@ -104,10 +105,85 @@
   transform: rotate(-36deg);
 }
 
-/* line 78, ../../../../!Моё обучение/WebDevelopmentHTML/layout-from-scratch/task-4/src/sass/style.sass */
+/* line 79, ../../../../!Моё обучение/WebDevelopmentHTML/layout-from-scratch/task-4/src/sass/style.sass */
+.right-wrapper {
+  width: 372px;
+  position: absolute;
+  top: 150px;
+  right: 76px;
+}
+
+/* line 84, ../../../../!Моё обучение/WebDevelopmentHTML/layout-from-scratch/task-4/src/sass/style.sass */
+.right-wrapper__icons-box {
+  margin-bottom: 1px;
+  padding-left: 10px;
+}
+
+/* line 87, ../../../../!Моё обучение/WebDevelopmentHTML/layout-from-scratch/task-4/src/sass/style.sass */
+.right-wrapper__title {
+  margin-bottom: 5px;
+}
+
+/* line 89, ../../../../!Моё обучение/WebDevelopmentHTML/layout-from-scratch/task-4/src/sass/style.sass */
+.right-wrapper__text {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+/* line 93, ../../../../!Моё обучение/WebDevelopmentHTML/layout-from-scratch/task-4/src/sass/style.sass */
 .icons {
   display: flex;
   gap: 17px;
+}
+
+/* line 98, ../../../../!Моё обучение/WebDevelopmentHTML/layout-from-scratch/task-4/src/sass/style.sass */
+.title {
+  font-size: 72px;
+  position: relative;
+}
+
+/* line 101, ../../../../!Моё обучение/WebDevelopmentHTML/layout-from-scratch/task-4/src/sass/style.sass */
+.title__hr {
+  width: 65px;
+  position: absolute;
+  bottom: 0;
+  margin: 0;
+  border: none;
+  border-top: 1px solid black;
+}
+
+/* line 109, ../../../../!Моё обучение/WebDevelopmentHTML/layout-from-scratch/task-4/src/sass/style.sass */
+.buttons {
+  display: flex;
+}
+
+/* line 111, ../../../../!Моё обучение/WebDevelopmentHTML/layout-from-scratch/task-4/src/sass/style.sass */
+.buttons__main-btn {
+  margin-right: 32px;
+  width: 200px;
+  height: 60px;
+  background: #f28b64;
+  border-radius: 100px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+  border: none;
+  font-size: 18px;
+  color: white;
+}
+
+/* line 121, ../../../../!Моё обучение/WebDevelopmentHTML/layout-from-scratch/task-4/src/sass/style.sass */
+.buttons__icon-btn {
+  display: flex;
+  align-items: center;
+}
+
+/* line 124, ../../../../!Моё обучение/WebDevelopmentHTML/layout-from-scratch/task-4/src/sass/style.sass */
+.buttons__icon-btn img {
+  margin-right: 12px;
+}
+
+/* line 126, ../../../../!Моё обучение/WebDevelopmentHTML/layout-from-scratch/task-4/src/sass/style.sass */
+.buttons__text {
+  font-size: 16px;
 }
 
 /*# sourceMappingURL=style.css.map */
