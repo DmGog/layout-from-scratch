@@ -30,7 +30,7 @@ $color-grey: #e2e2e2
   &__first-ellipse
     position: absolute
     top: 129px
-    right: 45px
+    right: 80px
   &__second-ellipse
     position: absolute
     right: -120px
@@ -156,5 +156,75 @@ $color-grey: #e2e2e2
     &_big
       width: 188px
       height: 188px
+    &_white
+      background: white
+  
 
 
+// вторая секция
+
+.second-section
+  min-height: 700px
+  &__container
+    padding-top: 32px
+    position: relative
+  &__title
+    margin-bottom: 40px
+  &__cards-box
+    display: flex
+    gap: 30px
+    margin-bottom: 26px
+  &__icons-box
+    display: flex
+    justify-content: center
+    gap: 60px
+  &__first-ellipse
+    position: absolute
+    top: 80px
+    right: -60px
+    z-index: -1
+  &__second-ellipse
+    position: absolute
+    top: 364px
+    left: -60px
+    z-index: -1
+
+// карточки
+
+.cards-item
+  position: relative
+  width: 360px
+  height: 360px
+  background: $color-grey
+  border-radius: 10px
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25)
+  display: flex
+  align-items: flex-end
+  &__img
+    height: 335px
+  &__text
+    width: 280px
+    font-size: 36px
+    text-align: center
+    transform: rotate(90deg)
+    position: absolute
+    top: 144px
+    right: -30px
+    
+.cards-item_orange
+  background: $color-orange
+
+.cards-item_blue
+  background: $color-blue
+
+// иконки
+.icons-item
+  display: flex
+  align-items: center
+  &__img
+    margin-right: 20px
+    width: 80px
+  &__text
+    font-size: 18px
+    span
+      font-size: 48px
