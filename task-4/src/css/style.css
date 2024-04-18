@@ -7,7 +7,7 @@
 @font-face {
   font-family: "MontserratT";
   src: url("../fonts/Montserrat-Regular.ttf");
-  font-weight: regular;
+  font-weight: normal;
   font-style: normal;
 }
 
@@ -21,7 +21,7 @@
 /* line 20, ../../../../!Моё обучение/WebDevelopmentHTML/layout-from-scratch/task-4/src/sass/style.sass */
 html {
   font-family: "MontserratT";
-  font-weight: regular;
+  font-weight: normal;
 }
 
 /* line 27, ../../../../!Моё обучение/WebDevelopmentHTML/layout-from-scratch/task-4/src/sass/style.sass */
